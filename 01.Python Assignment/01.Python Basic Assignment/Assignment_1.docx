@@ -1,0 +1,53 @@
+1. What are the differences between operators and values in the following?
+*
+'hello'
+-87.8
+-
+/
++
+6
+Ans. The operators are +, -, *, and /. The values are 'hello', -87.8, and 6.
+
+2. What is the difference between string and variable?
+spam
+'spam'
+Ans. A string is a datatype which is a collection of alphanumeric characters and represented in quotes whereas a variable is a named entity location used to store values of different datatypes.
+e.g., spam= ’spam’
+
+3. Describe three different data forms.
+Ans. The three different data forms are integer, float and string.
+
+4. What makes up an expression? What are the functions of all expressions?
+Ans . An expression consists of an operator as well as the operands. The function of all expressions is to evaluate to a single value.
+
+5. In this chapter, assignment statements such as spam = 10 were added. What's the difference between a declaration and an expression?
+Ans. Declaration is when we want to assign a datatype to a variable, meanwhile an expression is used when we want to compare two operands, or check some conditions for a single  operand
+Eg, Declaration:- spam=10
+      Expression :- spam!=10 
+6. After running the following code, what does the variable bacon contain?
+bacon = 22
+bacon + 1
+
+Ans. 22
+
+
+7. What should the values of the following two terms be?
+
+'spam' + 'spamspam'
+'spam' * 3
+Ans. spamspamspam
+
+8. Why is it that eggs is a true variable name but 100 is not?
+Ans. The reason is that Variable names cannot begin with a number.
+
+9. Which of the following three functions may be used to convert a value to an integer, a floating-point number, or a string?
+Ans. int(), float(), and str() functions are used to convert a value to an integer, a floating-point number, or a string.
+
+
+10. What is the error caused by this expression? What would you do about it?
+
+'I have eaten ' + 99 + ' burritos.'
+Ans. Since 99 is an integer we face an error while trying to concatenate it with the strings. To avoid this error we can convert the numeric value into a string.
+'I have eaten ' + ‘99’ + ' burritos.' OR  'I have eaten ' + str(99)+ ' burritos.'
+
+
